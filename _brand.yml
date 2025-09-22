@@ -1,0 +1,47 @@
+# An unofficial implementation of brand.yml for Princeton University
+meta:
+  name:
+    full: Princeton University
+    short: Princeton
+  link:
+    home: https://www.princeton.edu/
+    twitter: https://x.com/Princeton
+    linkedin: https://www.linkedin.com/school/princeton-university/
+    facebook: https://www.facebook.com/PrincetonU/
+  founded: 1746
+
+color:
+  palette:
+    princeton-orange: "#e98338"
+    deep-blue: "#092264"
+    deep-red: "#89130d"
+    deep-purple: "#5b0f58"
+    deep-green: "#19460e"
+    light-blue: "#aac7da"
+    light-brown: "#XC"
+    light-red: "#d9d7e6"
+    light-green: "#d5deda"
+    tint-blue: "#7cdaf3"
+    tint-red: "#f5a5f9"
+    tint-purple: "#c9a7fa"
+    tint-green: "#8ae168"
+    white: "#afafaf"
+    light-grey: "#afafaf"
+    mid-grey: "#5b575d"
+    black: "#010101"
+
+typography:
+  fonts:
+    - family: Princeton Monticello Display
+      source: file
+      files:
+        - path: https://drive.google.com/file/d/19HUJ52fQbbQtvuUKUV5h0hJtaf6NJIUQ
+          weight: regular
+        - path: https://drive.google.com/file/d/164jnrt8yjIuik9LQS95xHSlOatRiniWu
+          weight: italic
+    - family: Flecha S
+    - family: Csaslon Doric
+    - family: Libre Franklin
+      source: google
+  base: Libre Franklin
+  headings: Princeton Monticello Display
