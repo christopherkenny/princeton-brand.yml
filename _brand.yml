@@ -38,10 +38,24 @@ typography:
         - path: https://drive.google.com/file/d/19HUJ52fQbbQtvuUKUV5h0hJtaf6NJIUQ
           weight: regular
         - path: https://drive.google.com/file/d/164jnrt8yjIuik9LQS95xHSlOatRiniWu
-          weight: italic
+          style: italic
     - family: Flecha S
-    - family: Csaslon Doric
+      source: file
+      files:
+        - path: https://drive.google.com/file/d/1kZI71fNBSGoIlu3bMw3C1sZjtN-cty55
+          weight: light
+        - path: https://drive.google.com/file/d/1iOcM97oGCWyZUAAXGKLrGccnAj_xUxFL
+          weight: light
+          style: italic
+    - family: Caslon Doric
+      source: file
+      files:
+        - path: https://drive.google.com/file/d/1LVlgEqmIVs8dNjkytiMilJLqRDnFxDXe
+          weight: bold
     - family: Libre Franklin
+      source: google
+    - family: Open Sans Pro
       source: google
   base: Libre Franklin
   headings: Princeton Monticello Display
+  monospace: Open Sans Pro
