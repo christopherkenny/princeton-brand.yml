@@ -36,7 +36,7 @@ typography:
       source: file
       files:
         - path: https://drive.google.com/file/d/19HUJ52fQbbQtvuUKUV5h0hJtaf6NJIUQ
-          weight: regular
+          weight: normal
         - path: https://drive.google.com/file/d/164jnrt8yjIuik9LQS95xHSlOatRiniWu
           style: italic
     - family: Flecha S
