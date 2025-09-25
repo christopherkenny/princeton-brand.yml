@@ -18,8 +18,8 @@ color:
     deep-purple: "#5b0f58"
     deep-green: "#19460e"
     light-blue: "#aac7da"
-    light-brown: "#XC"
-    light-red: "#d9d7e6"
+    light-red: "#d9d1cb"
+    light-purple: "#d9d7e6"
     light-green: "#d5deda"
     tint-blue: "#7cdaf3"
     tint-red: "#f5a5f9"
@@ -32,14 +32,14 @@ color:
 
 typography:
   fonts:
-    - family: Princeton Monticello Display
+    - family: "Princeton Monticello Display"
       source: file
       files:
         - path: https://drive.google.com/file/d/19HUJ52fQbbQtvuUKUV5h0hJtaf6NJIUQ
-          weight: normal
+          weight: regular
         - path: https://drive.google.com/file/d/164jnrt8yjIuik9LQS95xHSlOatRiniWu
           style: italic
-    - family: Flecha S
+    - family: "Flecha S"
       source: file
       files:
         - path: https://drive.google.com/file/d/1kZI71fNBSGoIlu3bMw3C1sZjtN-cty55
@@ -47,17 +47,27 @@ typography:
         - path: https://drive.google.com/file/d/1iOcM97oGCWyZUAAXGKLrGccnAj_xUxFL
           weight: light
           style: italic
-    - family: Caslon Doric
+    - family: "Caslon Doric"
       source: file
       files:
         - path: https://drive.google.com/file/d/1LVlgEqmIVs8dNjkytiMilJLqRDnFxDXe
           weight: bold
-    - family: Libre Franklin
+    - family: "Libre Franklin"
       source: google
-    - family: Open Sans Pro
+      weight: regular
+    - family: "Open Sans Pro"
       source: google
-  base: Libre Franklin
-  headings: Princeton Monticello Display
-  monospace: Open Sans Pro
+  base:
+    family: "Libre Franklin"
+  headings:
+    family: "Princeton Monticello Display"
+  monospace:
+    family: "Open Sans Pro"
 
-logo: assets/PU_mark.png
+logo:
+  images:
+    primary:
+      path: assets/PU_mark.png
+  small: primary
+  medium: primary
+  large: primary
